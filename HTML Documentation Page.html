@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Documentation</title>
+  <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="container">
+    <nav id="navbar">
+      <header>HTML Documentation</header> 
+        <ul class="sidebar">
+        <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+        <li><a class="nav-link" href="#HTML_Elements">HTML Elements</a></li>
+        <li><a class="nav-link" href="#Attributes">Attributes</a></li>
+        <li><a class="nav-link" href="#Forms">Forms</a></li>
+        <li><a class="nav-link" href="#Tables">Tables</a></li>
+<li><a class="nav-link" href="#References">References</a></li>
+        </ul>
+        </nav>
+        <main id="main-doc">
+          <section id="Introduction" class="main-section">
+        <header>Introduction</header>
+         <p>HTML stands for Hypertext Markup Language. It is the standard language for creating web pages and web applications.</p>
+        <p>HTML elements are the building blocks of HTML pages. They define the structure and content of the document.</p>
+        <p>HTML consists of a series of elements, each of which has a specific meaning and purpose.</p>
+        <p>Elements are represented by tags, which can contain attributes to provide additional information about the element.</p>
+        <p>HTML documents are structured hierarchically, with nested elements creating a tree-like structure.</p>
+         <p>Here is an example of a basic HTML document:</p>
+        <code>&lt;!DOCTYPE html&gt;</code>
+        <code>&lt;html&gt;</code>
+        <code>&lt;head&gt;&lt;title&gt;Document&lt;/title&gt;&lt;/head&gt;</code>
+        <code>&lt;body&gt;&lt;h1&gt;Hello World&lt;/h1&gt;&lt;/body&gt;</code>
+        <code>&lt;/html&gt;</code>
+        </section>
+      <section id="HTML_Elements" class="main-section">
+        <header>HTML Elements</header>
+ <p>HTML elements are the core components of an HTML document. They include headings, paragraphs, links, and more.</p>
+        <p>Each element is enclosed in angle brackets, such as &lt;div&gt; or &lt;a&gt;.</p>
+        <p>Some elements are empty, meaning they don’t have closing tags. Examples include &lt;br&gt; and &lt;img&gt;.</p>
+        <p>Elements can be nested inside other elements to create more complex structures.</p>
+        <p>HTML5 introduced new semantic elements like &lt;article&gt; and &lt;section&gt; to enhance the structure and readability of documents.</p>
+        <ul>
+          <li><code>&lt;header&gt;</code> - Represents introductory content or a set of navigational links.</li>
+          <li><code>&lt;footer&gt;</code> - Represents the footer of a section or page.</li>
+          <li><code>&lt;main&gt;</code> - Represents the dominant content of the <code>&lt;body&gt;</code></li>
+        </ul>       
+        </section>
+      <section id="Attributes" class="main-section">
+       <header>Attributes</header>
+        <p>Attributes provide additional information about HTML elements. They are included in the opening tag of an element.</p>
+        <p>Attributes are written as name-value pairs, such as <code>href="https://example.com"</code> for a link element.</p>
+        <p>Some attributes are global, meaning they can be used with any HTML element. Examples include <code>class</code> and <code>id</code></p>
+        <p>Other attributes are specific to certain elements. For example, the <code>src</code> attribute is used with the <code>&lt;img&gt;</code> element to specify the image source.</p>
+        <p>Here is an example of an <code>img</code> element with attributes:</p>
+        <code>&lt;img src="image.jpg" alt="Description"&gt;</code>
+        </section>
+         <section id="Forms" class="main-section">
+        <header>Forms</header>
+        <p>Forms are used to collect user input. They consist of various input elements like text fields, checkboxes, and submit buttons.</p>
+        <p>The <code>&lt;form&gt;</code> element is the container for all form controls.</p>
+        <p>Forms can use methods like GET or POST to send data to a server.</p>
+        <p>Common form elements include <code>&lt;input&gt;</code>, <code>&lt;select&gt;</code>, and <code>&lt;textarea&gt;</code></p>
+        <p>Forms often include validation to ensure that the data entered is correct before submission.</p>
+        <p>Here is a basic form example:</p>
+        <code>&lt;form action="/submit" method="post"&gt;</code>
+        <code>&lt;input type="text" name="username"&gt;</code>
+        <code>&lt;input type="submit" value="Submit"&gt;</code>
+        <code>&lt;/form&gt;</code>
+        </section>
+      <section id="Tables" class="main-section">
+        <header>Tables</header>
+         <p>Tables are used to organize data into rows and columns. They consist of the <code>&lt;table&gt;</code> element.</p>
+        <p>Each row in a table is represented by the <code>&lt;tr&gt;</code> element.</p>
+        <p>Table headers are defined with the <code>&lt;th&gt;</code> element, while table data is defined with the <code>&lt;td&gt;</code> element.</p>
+        <p>Tables can be styled with CSS to enhance their appearance and make them more readable.</p>
+         <ul>
+          <li><code>&lt;tr&gt;</code> - Represents a table row.</li>
+          <li><code>&lt;th&gt;</code> - Represents a table header cell.</li>
+          <li><code>&lt;td&gt;</code> - Represents a table data cell.</li>
+        </ul>
+        </section>
+        <section id="References" class="main-section"> <!-- New section -->
+        <header>References</header>
+        <p>Here are some references used to compile this documentation:</p>
+         <ul>
+          <li><a href="https://en.wikipedia.org/wiki/HTML" target="_blank">HTML - Wikipedia</a></li>
+          <li><a href="https://en.wikipedia.org/wiki/HTML_element" target="_blank">HTML Element - Wikipedia</a></li>
+          <li><a href="https://en.wikipedia.org/wiki/HTML_attributes" target="_blank">HTML Attributes - Wikipedia</a></li>
+          <li><a href="https://en.wikipedia.org/wiki/HTML_form" target="_blank">HTML Form - Wikipedia</a></li>
+          <li><a href="https://en.wikipedia.org/wiki/HTML_table" target="_blank">HTML Table - Wikipedia</a></li>
+        </ul>
+        </main>   
+      </div>
+  </body>
+  </html>
